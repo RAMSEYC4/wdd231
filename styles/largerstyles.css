@@ -1,0 +1,435 @@
+@media screen and (min-width: 320px) {
+
+  * {
+    list-style-type: none;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Header adjustments for small screens */
+  header {
+    padding: 8px 15px;
+    height: 65px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .logo-container {
+    width: 150px;
+    min-width: 120px;
+  }
+
+  .site-logo {
+    width: 80px;
+    height: 40px;
+  }
+
+  .logo-text p {
+    font-size: 14px;
+  }
+
+  /* Keep hamburger menu for small screens */
+  .hamburger-icon-container {
+    display: flex;
+  }
+
+  /* Navigation stays vertical for small screens */
+  .nav-links {
+    display: block;
+    background-color: #333;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .links li {
+    border-bottom: 1px solid #555;
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+  }
+
+  .links li:last-child {
+    border-bottom: none;
+  }
+
+  .links a {
+    color: white;
+    font-size: 16px;
+  }
+
+  #js-button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+  }
+
+
+  /* Main content - keep stacked for small screens */
+  .main1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* About Me section */
+  .about-me-container .about-me-infor {
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about-me-infor p {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  /* Student Photo section */
+  .about-me-container .about-me-image {
+    height: 150px;
+  }
+
+  .image-1 {
+    width: 70%;
+    height: 120px;
+  }
+
+  .image-1>img {
+    height: 120px;
+  }
+
+  /* Web Certificate Courses section */
+  .main-2 {
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .main-2-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Course buttons - stack vertically on very small screens */
+  .courses-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+  }
+
+  .courses-1>div {
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .courses-1>div p {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  /* Course list - stack vertically */
+  .courses-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+
+  .courses-2>div {
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .courses-2>div p {
+    font-size: 14px;
+  }
+
+  /* Course info section */
+  .course-infor-2 {
+    margin-top: 15px;
+  }
+
+  .course-infor-2>div:first-child {
+    margin-bottom: 10px;
+  }
+
+  .course-infor-2 p {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  /* Social media icons - smaller and closer together */
+  .logo-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .logo-links>div {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+
+  .fa-brands {
+    font-size: 25px;
+  }
+
+  /* Footer */
+  footer {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  #currentyear {
+    color: white;
+  }
+}
+
+/* Transition to horizontal layout for slightly larger screens */
+@media screen and (min-width: 400px) {
+
+  /* Course buttons can now be 3 columns */
+  .courses-1 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .courses-1>div {
+    padding: 8px 12px;
+  }
+
+  /* Course list can be 3 columns */
+  .courses-2 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  /* Social icons slightly larger */
+  .logo-links {
+    gap: 20px;
+  }
+
+  .logo-links>div {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fa-brands {
+    font-size: 30px;
+  }
+
+  .js-render {
+    /* border: 1px solid #000; */
+    padding: 10px 0;
+  }
+}
+
+/* Desktop layout starts here */
+@media screen and (min-width: 500px) {
+
+  /* Header adjustments for desktop */
+  header {
+    padding: 10px 20px;
+    height: 70px;
+  }
+
+  .logo-container {
+    width: 200px;
+  }
+
+  .site-logo {
+    width: 100px;
+    height: 50px;
+  }
+
+  .logo-text p {
+    font-size: 16px;
+  }
+
+  /* Hide hamburger menu on desktop */
+  .hamburger-icon-container {
+    display: none;
+  }
+
+  /* Navigation horizontal layout */
+  .nav-links {
+    display: block !important;
+    background-color: #333;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .links li {
+    border: none;
+    border-right: 1px solid #555;
+    width: auto;
+    padding: 12px 20px;
+  }
+
+  .links li:last-child {
+    border-right: none;
+  }
+
+  .links a:hover {
+    color: #ccc;
+  }
+
+  /* Main content grid layout */
+  .main1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  /* About Me section styling */
+  .about-me-container:first-child .about-me-infor {
+    height: 200px;
+    display: flex;
+    align-items: center;
+  }
+
+  .about-me-infor p {
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  /* Student Photo section */
+  .about-me-container:last-child .about-me-image {
+    height: 200px;
+  }
+
+  .image-1 {
+    width: 80%;
+    height: 160px;
+  }
+
+  .image-1>img {
+    height: 160px;
+  }
+
+  /* Web Certificate Courses section */
+  .main-2 {
+    padding: 0 20px;
+  }
+
+  /* Course buttons layout */
+  .courses-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 15px 0;
+  }
+
+  .courses-1>div {
+    padding: 8px 15px;
+    border-radius: 8px;
+  }
+
+  /* Course list layout */
+  .courses-2 {
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .courses-2>div {
+    padding: 8px 15px;
+  }
+
+  /* Social media icons */
+  .logo-links {
+    gap: 30px;
+    padding: 15px 0;
+  }
+
+  .logo-links>div {
+    width: 60px;
+    height: 60px;
+  }
+
+  .fa-brands {
+    font-size: 35px;
+  }
+
+  /* Footer styling */
+  footer {
+    margin-top: 30px;
+    padding: 15px 20px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+/* Additional refinements for larger screens */
+@media screen and (min-width: 768px) {
+  .main1 {
+    padding: 0 40px;
+  }
+
+  .main-2 {
+    padding: 0 40px;
+  }
+
+  .courses-1,
+  .courses-2 {
+    gap: 20px;
+  }
+
+  .logo-links {
+    gap: 40px;
+  }
+
+  footer {
+    padding: 20px 40px;
+  }
+}

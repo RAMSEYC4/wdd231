@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ramsey Cedou">
+  <meta name="description" content="web page to display the courses i did">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/largerstyles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./script/humburger.js" defer></script>
+  <script src="./script/footer.js" defer></script>
+  <script src="./script/index.js" defer></script>
+  <title>Home</title>
+</head>
+
+<body>
+  <!--header start-->
+  <header>
+    <div class="logo-container">
+      <div class="logo">
+        <img src="./images/code-svgrepo-com.svg" alt="" class="site-logo">
+      </div>
+      <div class="logo-text">
+        <p>Web dev</p>
+      </div>
+    </div>
+    <div class="hamburger-icon-container">
+      <div class="hamburger-icon">
+        <!-- hamburger icon -->
+        <i class="fa-solid fa-bars"></i>
+        <!-- hamburger icon closed -->
+        <i class="fa-solid fa-x"></i>
+      </div>
+    </div>
+  </header>
+  <!--header end-->
+
+  <!--nav start-->
+  <nav class="nav-links">
+    <ul class="links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Final</a></li>
+    </ul>
+  </nav>
+  <!--nav end-->
+
+  <main>
+    <!--main start-->
+    <h1 class="main-header">Home</h1>
+    <div class="main main1">
+
+      <section class="about-me-container">
+        <div class="about-me">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-me-infor">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus id error sint numquam consequatur architecto
+            cumque consectetur, quas inventore officiis atque veritatis
+            eius atque. optio expedita, omnis ea! Cupiditate quis quis
+            quis quis quis quis
+          </p>
+        </div>
+      </section>
+
+      <section class="about-me-container">
+        <div class="about-me">
+          <h2>Student Photo</h2>
+        </div>
+        <div class="about-me-image">
+          <div class="image-1">
+            <img src="./images/code-svgrepo-com.svg" alt="">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="main main-2">
+      <section class="main-2-container">
+        <div class="about-me">
+          <h2>
+            Web Certificates Courses
+          </h2>
+        </div>
+        <div class="course-infor">
+          <div class="courses-1">
+            <button onclick="showAllCourses()">
+              <p>All</p>
+            </button>
+            <button onclick="showCSECourses() ">
+              <p>CSE</p>
+            </button>
+            <button onclick="showWDDCourses() ">
+              <p>WDD</p>
+            </button>
+          </div>
+          <div class="courses-2 js-render">
+            <!-- the js goes inside this container -->
+            <div>
+              <p>WDD130</p>
+            </div>
+            <!-- the js goes inside this container -->
+          </div>
+          <div class="course-infor-2">
+            <div>
+              <p>The total credits for course listed above is 6</p>
+            </div>
+            <div class="logo-links">
+              <div><i class="fa-brands fa-linkedin"></i></div>
+              <div><i class="fa-brands fa-github"></i></div>
+              <div><i class="fa-brands fa-x-twitter"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!--main end-->
+
+  <!--footer start-->
+  <footer>
+    <p id="lastModified">
+    </p>
+    <p>
+      <span id="currentyear">
+      </span>
+    </p>
+  </footer>
+  <!--footer end-->
+</body>
+
+</html>
