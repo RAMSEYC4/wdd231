@@ -105,3 +105,11 @@ function showWDDCourses() {
   renderCourses(wddFilter);
 }
 
+let allCoursesElement = document.querySelector('.AllCourses');
+let cseCoursesElement = document.querySelector('.CSECourses');
+let wddCoursesElement = document.querySelector('.WDDCourses');
+
+allCoursesElement.addEventListener('click', showAllCourses);
+cseCoursesElement.addEventListener('click', showCSECourses);
+wddCoursesElement.addEventListener('click', showWDDCourses);
+
