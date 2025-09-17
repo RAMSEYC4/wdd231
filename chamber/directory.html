@@ -16,8 +16,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="icon" href="./images/favicon.ico">
+  <meta property="og:title" content="Timbuktu Chamber of Commerce" />
+  <meta property="og:description" content="Timbuktu Chamber of Commerce full website ." />
+  <meta property="og:image" content="https://yoursite.com/path/to/your-image.jpg" />
+  <meta property="og:url" content="https://yoursite.com/current-page-url" />
   <script src="./scripts/index.js" defer></script>
   <script src="./scripts/humburger.js" defer></script>
+  <script src="./scripts/footer.js" defer></script>
   <title>Timbuktu Chamber of Commerce</title>
 </head>
 
@@ -45,7 +51,7 @@
         </div>
         <!-- second nav end  -->
         <div class="hamburger-icon center">
-          <img src="./images/night-mode.png" class="toggle-image" width="25px" alt="">
+          <img src="./images/night-mode.png" class="toggle-image" width="25px" alt="dark-mode">
           <!-- hamburger icon -->
           <i class="fa-solid fa-bars"></i>
           <!-- hamburger icon closed -->
@@ -70,7 +76,7 @@
     <!-- Hero container element start -->
     <section class="Hero-container">
       <div class="Hero-content">
-        <img src="" alt="">
+        <img src="" alt="her-image">
         <div class="Hero-lower-content">
           <p>Keynote ticket</p>
         </div>
@@ -128,8 +134,7 @@
     <div class="footer-content2">
       <p>WDD231 Class Project</p>
       <p>Ramsey Cedou</p>
-      <p>© 20xx Timbuktu Chamber of Commerce</p>
-      <p>Last Modification: 10/21/202X 22:12:35</p>
+      <p id="lastModified"></p>
     </div>
   </footer>
   <!-- footer element end -->
