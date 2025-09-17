@@ -135,6 +135,13 @@
   }
 }
 
+@media (min-width: 585px) {
+  .logo-text>p {
+    font-size: 15px;
+  }
+}
+
+
 /* Hide mobile nav on larger screens */
 @media (max-width: 522px) {
   #nav-links-parent2 {

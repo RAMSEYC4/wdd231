@@ -1,72 +1,72 @@
 [
   {
-    "name": "Sahara Salt Trading Company",
-    "address": "22 Salt Mine Road, Timbuktu, Mali",
-    "phone": "(223) 555-0101",
-    "website": "www.sahara.ml",
-    "imagelink": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&auto=format",
-    "email": "info@saharasalt.ml",
+    "name": "CloudForge Solutions",
+    "address": "1250 Innovation Drive, San Francisco, CA 94105",
+    "phone": "(415) 555-0101",
+    "website": "www.cloudforge.dev",
+    "imagelink": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=300&fit=crop&auto=format",
+    "email": "hello@cloudforge.dev",
     "membershipLevel": "Gold",
-    "description": "Leading salt mining and distribution company serving West Africa for over 35 years."
+    "description": "Full-stack cloud development company specializing in scalable web applications and microservices architecture."
   },
   {
-    "name": "Timbuktu Textiles & Crafts",
-    "address": "15 Artisan Quarter, Timbuktu, Mali",
-    "phone": "(223) 555-0102",
-    "website": "www.timbuk.ml",
-    "imagelink": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&auto=format",
-    "email": "orders@tim.ml",
+    "name": "DataPipe Analytics",
+    "address": "890 Tech Boulevard, Austin, TX 78701",
+    "phone": "(512) 555-0102",
+    "website": "www.datapipe.io",
+    "imagelink": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&auto=format",
+    "email": "contact@datapipe.io",
     "membershipLevel": "Silver",
-    "description": "Traditional textile manufacturer specializing in authentic Malian fabrics and handicrafts."
+    "description": "Data engineering consultancy building ETL pipelines and real-time analytics platforms for enterprise clients."
   },
   {
-    "name": "Desert Solar Solutions",
-    "address": "8 Solar Avenue, Timbuktu, Mali",
-    "phone": "(223) 555-0103",
-    "website": "www.solar.ml",
-    "imagelink": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=300&fit=crop&auto=format",
-    "email": "contact@des.ml",
+    "name": "MobileFirst Labs",
+    "address": "3400 React Street, Seattle, WA 98109",
+    "phone": "(206) 555-0103",
+    "website": "www.mobilefirst.app",
+    "imagelink": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop&auto=format",
+    "email": "team@mobilefirst.app",
     "membershipLevel": "Gold",
-    "description": "Innovative solar energy solutions for residential and commercial properties across Mali."
+    "description": "React Native and Flutter specialists creating cross-platform mobile applications for startups and enterprises."
   },
   {
-    "name": "Timbuktu Tours & Heritage",
-    "address": "33 Heritage Boulevard, Timbuktu, Mali",
-    "phone": "(223) 555-0104",
-    "website": "www.tours.ml",
-    "imagelink": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=300&fit=crop&auto=format",
-    "email": "bookings@tim",
+    "name": "DevOps Automation Co",
+    "address": "777 Container Lane, Denver, CO 80202",
+    "phone": "(303) 555-0104",
+    "website": "www.devopsauto.com",
+    "imagelink": "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=400&h=300&fit=crop&auto=format",
+    "email": "ops@devopsauto.com",
     "membershipLevel": "Silver",
-    "description": "Premier cultural tourism company offering authentic experiences of Timbuktu's rich history."
+    "description": "Infrastructure automation and CI/CD pipeline specialists using Kubernetes, Docker, and Terraform."
   },
   {
-    "name": "Niger River Logistics",
-    "address": "12 River Port Street, Timbuktu, Mali",
-    "phone": "(223) 555-0105",
-    "website": "www.logistics.ml",
-    "imagelink": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&auto=format",
-    "email": "shipping@niger.ml",
+    "name": "API Gateway Systems",
+    "address": "2100 Microservice Avenue, Boston, MA 02101",
+    "phone": "(617) 555-0105",
+    "website": "www.apigateway.tech",
+    "imagelink": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=400&h=300&fit=crop&auto=format",
+    "email": "integration@api.tech",
     "membershipLevel": "Gold",
-    "description": "Comprehensive logistics and transportation services along the Niger River trade routes."
+    "description": "Backend API development and integration services specializing in RESTful and GraphQL architectures."
   },
   {
-    "name": "Manuscript Digital Archive",
-    "address": "7 Sankore University Road, Timbuktu, Mali",
-    "phone": "(223) 555-0106",
-    "website": "www.archive.ml",
-    "imagelink": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop&auto=format",
-    "email": "info@man.ml",
+    "name": "Frontend Frameworks Inc",
+    "address": "1555 Component Circle, Portland, OR 97201",
+    "phone": "(503) 555-0106",
+    "website": "www.frontend.studio",
+    "imagelink": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=300&fit=crop&auto=format",
+    "email": "ui@frontend.studio",
     "membershipLevel": "Silver",
-    "description": "Digital preservation and archival services for ancient manuscripts and historical documents."
+    "description": "Modern frontend development using React, Vue.js, and Angular with focus on performance and accessibility."
   },
   {
-    "name": "Timbuktu Spice Merchants",
-    "address": "25 Spice Market Lane, Timbuktu, Mali",
-    "phone": "(223) 555-0107",
-    "website": "www.spices.ml",
-    "imagelink": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=300&fit=crop&auto=format",
-    "email": "trade@5.ml",
+    "name": "CodeCraft Consulting",
+    "address": "4200 Algorithm Way, New York, NY 10001",
+    "phone": "(212) 555-0107",
+    "website": "www.codecraft.dev",
+    "imagelink": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400&h=300&fit=crop&auto=format",
+    "email": "hello@codecraft.dev",
     "membershipLevel": "Bronze",
-    "description": "Traditional spice trading company connecting local farmers with international markets."
+    "description": "Custom software development and technical consulting for complex business applications and legacy system modernization."
   }
 ]
