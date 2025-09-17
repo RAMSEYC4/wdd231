@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Sahara Salt Trading Company",
+    "address": "22 Salt Mine Road, Timbuktu, Mali",
+    "phone": "(223) 555-0101",
+    "website": "www.sahara.ml",
+    "imagelink": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&auto=format",
+    "email": "info@saharasalt.ml",
+    "membershipLevel": "Gold",
+    "description": "Leading salt mining and distribution company serving West Africa for over 35 years."
+  },
+  {
+    "name": "Timbuktu Textiles & Crafts",
+    "address": "15 Artisan Quarter, Timbuktu, Mali",
+    "phone": "(223) 555-0102",
+    "website": "www.timbuk.ml",
+    "imagelink": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&auto=format",
+    "email": "orders@tim.ml",
+    "membershipLevel": "Silver",
+    "description": "Traditional textile manufacturer specializing in authentic Malian fabrics and handicrafts."
+  },
+  {
+    "name": "Desert Solar Solutions",
+    "address": "8 Solar Avenue, Timbuktu, Mali",
+    "phone": "(223) 555-0103",
+    "website": "www.solar.ml",
+    "imagelink": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=300&fit=crop&auto=format",
+    "email": "contact@des.ml",
+    "membershipLevel": "Gold",
+    "description": "Innovative solar energy solutions for residential and commercial properties across Mali."
+  },
+  {
+    "name": "Timbuktu Tours & Heritage",
+    "address": "33 Heritage Boulevard, Timbuktu, Mali",
+    "phone": "(223) 555-0104",
+    "website": "www.tours.ml",
+    "imagelink": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=300&fit=crop&auto=format",
+    "email": "bookings@tim",
+    "membershipLevel": "Silver",
+    "description": "Premier cultural tourism company offering authentic experiences of Timbuktu's rich history."
+  },
+  {
+    "name": "Niger River Logistics",
+    "address": "12 River Port Street, Timbuktu, Mali",
+    "phone": "(223) 555-0105",
+    "website": "www.logistics.ml",
+    "imagelink": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&auto=format",
+    "email": "shipping@niger.ml",
+    "membershipLevel": "Gold",
+    "description": "Comprehensive logistics and transportation services along the Niger River trade routes."
+  },
+  {
+    "name": "Manuscript Digital Archive",
+    "address": "7 Sankore University Road, Timbuktu, Mali",
+    "phone": "(223) 555-0106",
+    "website": "www.archive.ml",
+    "imagelink": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop&auto=format",
+    "email": "info@man.ml",
+    "membershipLevel": "Silver",
+    "description": "Digital preservation and archival services for ancient manuscripts and historical documents."
+  },
+  {
+    "name": "Timbuktu Spice Merchants",
+    "address": "25 Spice Market Lane, Timbuktu, Mali",
+    "phone": "(223) 555-0107",
+    "website": "www.spices.ml",
+    "imagelink": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=300&fit=crop&auto=format",
+    "email": "trade@5.ml",
+    "membershipLevel": "Bronze",
+    "description": "Traditional spice trading company connecting local farmers with international markets."
+  }
+]
