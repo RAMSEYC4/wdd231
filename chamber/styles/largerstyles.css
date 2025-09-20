@@ -35,10 +35,6 @@
     padding: 0 5px;
   }
 
-  .information-catalogue {
-    padding: 0 5px;
-    margin: 5px 5px;
-  }
 }
 
 /* Large Mobile - 425px and up */
@@ -55,6 +51,15 @@
   .nav-links {
     width: 120px;
     right: 15px;
+  }
+}
+
+@media (max-width: 560px) {
+  .home-information-catalogue {
+    display: flex;
+    flex-direction: column !important;
+    padding: 10px 10px;
+    gap: 15px;
   }
 }
 
@@ -164,10 +169,6 @@
     min-height: 200px;
   }
 
-  .information-catalogue {
-    padding: 0 10px;
-    gap: 15px;
-  }
 }
 
 /* Large Tablet - 700px and up */
@@ -200,19 +201,12 @@
     padding: 10px 10px;
   }
 
-  /* Three-column layout for information catalogue */
-  .information-catalogue {
-    padding: 0 60px;
-    /* margin: 20px 5px; */
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "events currentweather weatherforecast";
-    gap: 20px;
-  }
 
-  .events,
-  .currentweather,
-  .weatherforecast {
-    height: 160px;
+  .home-information-catalogue {
+    display: flex;
+    flex-direction: row !important;
+    padding: 10px 10px;
+    gap: 15px;
   }
 
   /* Three-column layout for generated content */
@@ -252,15 +246,6 @@
     height: 300px;
   }
 
-  .information-catalogue {
-    margin: 30px 5px;
-  }
-
-  .events,
-  .currentweather,
-  .weatherforecast {
-    height: 180px;
-  }
 
   /* Four-column layout for generated content on larger screens */
   .generated-content {
@@ -279,9 +264,6 @@
     height: 350px;
   }
 
-  .information-catalogue {
-    padding: 0 80px;
-  }
 
   .generated-content {
     padding: 0 20px;
@@ -300,10 +282,6 @@
   }
 
   .Hero-container {
-    padding: 0 60px;
-  }
-
-  .information-catalogue {
     padding: 0 60px;
   }
 

@@ -1,0 +1,78 @@
+/* screen at 300px or less */
+@media (max-width:300px) {
+  .hero-image-container {
+    height: 200px;
+  }
+
+  .content2>p {
+    text-align: left;
+    padding-left: 0 !important;
+  }
+
+  .bold-text {
+    font-weight: 100;
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width:380px) {
+  .content2>p {
+    text-align: left;
+    padding-left: 0 !important;
+  }
+
+  .bold-text {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+}
+
+/* screen at 300px or wider */
+@media (min-width:301px) {
+  .hero-image-container {
+    height: 300px;
+  }
+}
+
+/* screen at 400px or wider */
+@media (min-width:400px) {
+  .hero-image-container {
+    height: 400px;
+  }
+}
+
+/* screen at 500px or wider */
+@media (min-width:500px) {
+  .hero-image-container {
+    height: 500px;
+  }
+}
+
+
+@media (min-width:500px) {
+  .jscontent {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px 0 0 0;
+  }
+}
+
+@media (min-width:523px) and (max-width:651px) {
+
+  .displayWeather1,
+  .displayWeather2 {
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    height: 70%;
+  }
+}
+
+/* .generated-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 10px 0 0 0;
+} */

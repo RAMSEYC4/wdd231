@@ -10,6 +10,7 @@ const lastModificationDate = new Date(document.lastModified)
 document.querySelector('#lastModified')
   .innerHTML = `@${year} Cedou Ramsey Pretoria pretoria SA`
 
-console.log(document.querySelector('#currentyear')
+document.querySelector('#currentyear')
   .innerHTML = `last Modification : ${day}/${month}/${year} 
-                ${hours}/${minutes}/${seconds}`)
+                ${hours}/${minutes}/${seconds}`
+

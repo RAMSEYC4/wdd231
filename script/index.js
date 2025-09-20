@@ -83,7 +83,9 @@ const courses = [
 function renderCourses(coursesToRender) {
   let renderHtml = '';
   coursesToRender.forEach(subjects => {
-    renderHtml += `<div><p>${subjects.subject} ${subjects.number}</p></div>`;
+    renderHtml += `<div>
+                      <p>${subjects.subject} ${subjects.number}</p>
+                  </div>`;
   });
   document.querySelector('.js-render').innerHTML = renderHtml;
 }

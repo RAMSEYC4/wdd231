@@ -24,11 +24,13 @@
     content="Chamber of Commerce home page  local organization of businesses that work together to strengthen the business interests of the group." />
   <meta property="og:image" content="https://yourchambersite.com/images/chamber-logo.jpg" />
   <meta property="og:url" content="https://yourchambersite.com/about" />
-  <script src="./scripts/index.js" defer></script>
   <script src="./scripts/humburger.js" defer></script>
+  <script src="./scripts/memberdata.js" defer></script>
+  <script src="./scripts/weather.js" defer></script>
   <script src="./scripts/footer.js" defer></script>
   <title>Timbuktu Chamber of Commerce Home page</title>
 </head>
+<!-- href="/image-vector/computer-network-black-white-2d-illustration-2430651827" -->
 
 <body>
   <!-- header element start -->
@@ -65,7 +67,7 @@
       <div class="nav-links-parent">
         <ul class="nav-links">
           <li><a class="nav-link1" href="#">Home</a></li>
-          <li><a class="nav-link2" href="#">Directory</a></li>
+          <li><a class="nav-link2" href="./directory.html">Directory</a></li>
           <li><a class="nav-link3" href="#">Join</a></li>
           <li><a class="nav-link4" href="#">Discover</a></li>
         </ul>
@@ -73,15 +75,63 @@
 
     </nav>
   </header>
-  <!-- header element end -->
-  <!-- hero image start -->
-  <div class="hero-image-container">
+
+  <main>
+    <!-- header element end -->
+    <!-- hero image start -->
+    <div class="hero-image-container">
       <div class="hero-image">
-
+        <img src="./images/happy-client.webp" alt="site Hero image">
       </div>
-  </div>
-  <!-- hero image end -->
+    </div>
+    
+    <!-- hero image end -->
+    <!-- current events start -->
+    <div class="home-information-catalogue">
+      <div class="home-events">
+        <h2>events</h2>
+        <div class="display-events">
+        </div>
+      </div>
+      <!-- weather section start -->
+      <div class="home-currentweather">
+        <h2>Current Weather</h2>
+        <div class="displayWeather1">
+        </div>
+      </div>
+      <div class="home-weatherforecast">
+        <h2>Weather forecast</h2>
+        <div class="displayWeather2">
+        </div>
+      </div>
+      <!-- weather section end -->
+    </div>
+    <!-- current events end -->
+    <div class="jscontent">
 
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content1">
+      <h3>Developer Chamber of Commerce</h3>
+      <p>35 Van Riebeeck</p>
+      <p>Bothaville</p>
+      <p>cedouramsey@mail.com</p>
+      <p>(223) 555-2300</p>
+    </div>
+    <div class="footer-icons center">
+      <div><i class="fa-brands fa-youtube"></i></div>
+      <div><i class="fa-brands fa-twitter"></i></div>
+      <div><i class="fa-brands fa-linkedin"></i></div>
+    </div>
+    <div class="footer-content2">
+      <p>WDD231 Class Project</p>
+      <p>Ramsey Cedou</p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+  <!-- footer element end -->
 </body>
 
 </html>

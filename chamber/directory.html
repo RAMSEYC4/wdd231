@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/largerstyles.css">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/homestyles.css">
+  <link rel="stylesheet" href="./styles/largerhomestyles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,8 +23,9 @@
   <meta property="og:description" content="Developer Chamber of Commerce full website ." />
   <meta property="og:image" content="https://yourchambersite.com/images/chamber-logo.jpg" />
   <meta property="og:url" content="https://yourchambersite.com/about" />
-  <script src="./scripts/index.js" defer></script>
+  <script src="./scripts/memberdata.js" defer></script>
   <script src="./scripts/humburger.js" defer></script>
+  <script src="./scripts/weather.js" defer></script>
   <script src="./scripts/footer.js" defer></script>
   <title>Developer Chamber of Commerce</title>
 </head>
@@ -61,7 +64,7 @@
 
       <div class="nav-links-parent">
         <ul class="nav-links">
-          <li><a class="nav-link1" href="#">Home</a></li>
+          <li><a class="nav-link1" href="./index.html">Home</a></li>
           <li><a class="nav-link2" href="#">Directory</a></li>
           <li><a class="nav-link3" href="#">Join</a></li>
           <li><a class="nav-link4" href="#">Discover</a></li>
@@ -76,6 +79,7 @@
     <!-- Hero container element start -->
     <section class="Hero-container">
       <div class="Hero-content">
+        <img src="./images/happy-client.webp" alt="site Hero image">
         <div class="Hero-lower-content">
           <p>Keynote ticket</p>
         </div>
@@ -84,30 +88,21 @@
     <!-- banner container element end -->
     <h2 class="second-heading">Home</h2>
     <!-- information catalogue start -->
-    <div class="information-catalogue">
-
-      <section class="events">
+    <div class="home-information-catalogue">
+      <div class="home-events">
         <h2>events</h2>
-        <div class="events-content">
-          <div></div>
-        </div>
-      </section>
-
-      <section class="currentweather">
+        <!-- <div>hello</div> -->
+      </div>
+      <div class="home-currentweather">
         <h2>Current Weather</h2>
-        <div class="currentweather-content flex">
-          <div></div>
-        </div>
-      </section>
-
-      <section class="weatherforecast">
+        <!-- <div>helo</div> -->
+      </div>
+      <div class="home-weatherforecast">
         <h2>Weather forecast</h2>
-        <div class="weatherforecast-content flex">
-          <div></div>
-        </div>
-      </section>
-
+        <!-- <div>hello</div> -->
+      </div>
     </div>
+
     <!-- js content  -->
     <div class="generated-content">
     </div>
