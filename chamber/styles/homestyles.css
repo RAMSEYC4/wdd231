@@ -1,12 +1,10 @@
 .hero-image-container {
-  /* border: 1px solid #000; */
   width: 100%;
   height: 500px;
   padding: 15px 15px;
 }
 
 .hero-image {
-  /* background-color: #000; */
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -58,7 +56,6 @@
 }
 
 .Weather1-container>p>span {
-  /* color: #000 !important; */
   font-weight: 500;
   padding-left: 5px;
 }
@@ -70,7 +67,6 @@
 }
 
 .jscontent {
-  /* border: 1px solid #000; */
   margin: 10px 0;
   width: 100%;
   height: fit-content;

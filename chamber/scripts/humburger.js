@@ -8,6 +8,8 @@ used add event listener
   function to toggle between open hamburger
   and closed hambuger.
 */
+
+const bodyElement = document.querySelector('content-body')
 const hamburgerOpen = document.querySelector('.fa-bars');
 const hamburgerClose = document.querySelector('.fa-x');
 const navElement = document.querySelector('.nav-links-parent')
@@ -26,3 +28,5 @@ function togglehamburgerIcon() {
     navElement.style.display = 'none';
   }
 }
+
+

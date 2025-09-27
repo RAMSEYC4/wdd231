@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/homestyles.css">
   <link rel="stylesheet" href="./styles/largerhomestyles.css">
+  <link rel="stylesheet" href="./styles/formstyles.css">
+  <link rel="stylesheet" href="./styles/formlargerstyles.css">
+  <link rel="stylesheet" href="./styles/modals.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -27,12 +30,13 @@
   <script src="./scripts/humburger.js" defer></script>
   <script src="./scripts/memberdata.js" defer></script>
   <script src="./scripts/weather.js" defer></script>
+  <script src="./scripts/modals.js" defer></script>
   <script src="./scripts/footer.js" defer></script>
-  <title>Developer Chamber of Commerce Home page</title>
+  <script src="./scripts/feedback.js" defer></script>
+  <title>Developer Chamber of Commerce Sign in Page </title>
 </head>
-<!-- href="/image-vector/computer-network-black-white-2d-illustration-2430651827" -->
 
-<body>
+<body class="content-body">
   <!-- header element start -->
   <header>
     <nav class="center2">
@@ -48,7 +52,7 @@
         <!-- second nav start -->
         <div id="nav-links-parent2">
           <ul class="nav-links2">
-            <li><a class="mainnav-links1" href="">Home</a></li>
+            <li><a class="mainnav-links1" href="./index.html">Home</a></li>
             <li><a class="mainnav-links2" href="./directory.html">Directory</a></li>
             <li><a class="mainnav-links3" href="./join.html">Join</a></li>
             <li><a class="mainnav-links4" href="#">Discover</a></li>
@@ -72,46 +76,80 @@
           <li><a class="nav-link4" href="#">Discover</a></li>
         </ul>
       </div>
-
     </nav>
   </header>
+  <!-- header element end -->
 
+  <!-- main element start -->
   <main>
-    <!-- header element end -->
-    <!-- hero image start -->
-    <div class="hero-image-container">
-      <div class="hero-image">
-        <img src="./images/happy-client.webp" alt="site Hero image">
-      </div>
-    </div>
-    
-    <!-- hero image end -->
-    <!-- current events start -->
-    <div class="home-information-catalogue">
-      <div class="home-events">
-        <h2>events</h2>
-        <div class="display-events">
-        </div>
-      </div>
-      <!-- weather section start -->
-      <div class="home-currentweather">
-        <h2>Current Weather</h2>
-        <div class="displayWeather1">
-        </div>
-      </div>
-      <div class="home-weatherforecast">
-        <h2>Weather forecast</h2>
-        <div class="displayWeather2">
-        </div>
-      </div>
-      <!-- weather section end -->
-    </div>
-    <!-- current events end -->
-    <div class="jscontent">
 
-    </div>
+    <section>
+      <h2>Membership Application form</h2>
+      <form action="./thankyou.html" method="get">
+        <label for="fname">
+          first name
+          <input type="text" name="fname" id="fname" title="fname" autocomplete="on" required>
+        </label>
+        <label for="ltname">
+          last name
+          <input type="text" name="lastname" id="ltname" title="lname" autocomplete="on" required>
+        </label>
+        <label for="organizationalTitle">
+          organizational title
+          <input type="text" name="organizationalTitle" id="organizationalTitle" title="organizationalTitle"
+            autocomplete="on" required>
+        </label>
+        <label for="emailaddress">
+          Email address
+          <input type="email" name="emailaddress" id="emailaddress" title="emailaddress" autocomplete="on" required>
+        </label>
+        <label for="phonenumber">
+          mobile phone number
+          <input type="number" name="phonenumber" id="phonenumber" title="phonenumber" autocomplete="on" required>
+        </label>
+        <label for="business/organization's-name">
+          business/organization's name
+          <input type="text" name="business/organization's-name" class="og-name" id="business/organization's-name"
+            title="business/organization's-name" autocomplete="on" required>
+        </label>
+        <label for="business/organization's-description">
+          business/organization's description
+          <textarea name="business/organization's-description" class="og-des" id="business/organization's-description" rows="6"
+            cols="60">
+          </textarea>
+        </label>
+        <label for="submitform">
+          <input  type="submit" name="submitform" id="submitform" title="submitform" onclick="getInformation()" required>
+        </label>
+      </form>
+    </section>
+
+    <section>
+      <h2>Membership form</h2>
+      <div class="membershiplevel">
+        <dialog>
+          <p>Non Profit Membership level</p>
+          <button class="closeModal">lern more</button>
+        </dialog>
+        <dialog>
+          <p>Bronze Membership level</p>
+          <button class="closeModal">learn more</button>
+        </dialog>
+        <dialog>
+          <p>silver Profit Membership level</p>
+          <button class="closeModal">learn more</button>
+        </dialog>
+        <dialog>
+          <p>Gold Profit Membership level</p>
+          <button class="closeModal">learn more</button>
+        </dialog>
+      </div>
+    </section>
+
   </main>
+  <!-- main element end -->
 
+  <!-- footer element start -->
   <footer>
     <div class="footer-content1">
       <h3>Developer Chamber of Commerce</h3>

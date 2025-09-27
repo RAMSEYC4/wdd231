@@ -1,0 +1,21 @@
+Weather App planning 
+
+
+
+
+1) Project Subject
+    Weather App  
+
+
+
+
+2)Project Description
+   The Weather App is going to provide weather information  for certain regions 
+
+
+
+
+3)Project Reason and Purpose
+   I choose this porject because I can apply concerpts that I have learned throught out this
+   module concerpts like modules in javascript, consuming Api's and using Json
+   in my final project.

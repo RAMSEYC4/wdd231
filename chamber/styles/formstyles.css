@@ -1,0 +1,62 @@
+/* on small screen h2 size  inlless specified*/
+h2 {
+  text-align: center;
+  font-size: 1em;
+  padding: 10px;
+}
+
+main {
+  margin-top: 10px;
+  display: grid;
+  gap: 20px;
+}
+
+main>section {
+  border-radius: 10px;
+}
+
+form {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form>label {
+  margin-bottom: 3px;
+  display: grid;
+}
+
+input {
+  padding: 2px;
+}
+
+textarea {
+  resize: none;
+  padding: 5px;
+}
+
+.membershiplevel .membership p {
+  text-align: center;
+}
+
+.membership>button {
+  align-self: center;
+  margin: 2px 0;
+  width: 100px;
+}
+
+dialog {}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.membershiplevel>dialog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

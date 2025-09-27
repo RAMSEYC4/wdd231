@@ -51,8 +51,6 @@ async function fetchMembers2() {
     if (nonBronze.length > 0) {
       let random1 = Math.floor(Math.random() * nonBronze.length);
       let random2 = Math.floor(Math.random() * nonBronze.length);
-      console.log(nonBronze[random1]);
-      console.log(nonBronze[random2]);
       let values1 = `
           <section class="businessname1">
           <div class="business-heading">
