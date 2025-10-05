@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Ramsey Cedou">
-  <meta name="description" content="web page to display the courses i did">
+  <meta name="description" content="Chamber of Commerce discover page">
   <link rel="stylesheet" href="./styles/styles.css">
   <link rel="stylesheet" href="./styles/largerstyles.css">
   <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/homestyles.css">
   <link rel="stylesheet" href="./styles/largerhomestyles.css">
+  <link rel="stylesheet" href="./styles/discover.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,16 +20,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="icon" href="./images/favicon.ico">
-  <meta property="og:title" content="Developer Chamber of Commerce" />
-  <meta property="og:description" content="Developer Chamber of Commerce full website ." />
+  <meta property="og:title" content="Chamber of Commerce discover page" />
+  <meta property="og:description"
+    content="Chamber of Commerce discover page  local organization of businesses that work together to strengthen the business interests of the group." />
   <meta property="og:image" content="https://yourchambersite.com/images/chamber-logo.jpg" />
   <meta property="og:url" content="https://yourchambersite.com/about" />
-  <script src="./scripts/memberdata.js" defer></script>
   <script src="./scripts/humburger.js" defer></script>
+  <script src="./scripts/memberdata.js" defer></script>
   <script src="./scripts/weather.js" defer></script>
+  <script src="./scripts/discover.js" defer></script>
   <script src="./scripts/footer.js" defer></script>
-  <title>Developer Chamber of Commerce</title>
+  <title>Developer Chamber of Commerce discover page</title>
 </head>
+
 
 <body>
   <!-- header element start -->
@@ -47,9 +51,9 @@
         <div id="nav-links-parent2">
           <ul class="nav-links2">
             <li><a class="mainnav-links1" href="./index.html">Home</a></li>
-            <li><a class="mainnav-links2" href="#">Directory</a></li>
+            <li><a class="mainnav-links2" href="./directory.html">Directory</a></li>
             <li><a class="mainnav-links3" href="./join.html">Join</a></li>
-            <li><a class="mainnav-links4" href="#">Discover</a></li>
+            <li><a class="mainnav-links4" href="./discover.html">Discover</a></li>
           </ul>
         </div>
         <!-- second nav end  -->
@@ -64,54 +68,18 @@
 
       <div class="nav-links-parent">
         <ul class="nav-links">
-          <li><a class="nav-link1" href="./index.html">Home</a></li>
+          <li><a class="nav-link1" href="#">Home</a></li>
           <li><a class="nav-link2" href="./directory.html">Directory</a></li>
-          <li><a class="nav-link3" href="./join.html">Join</a></li>
-          <li><a class="mainnav-links4" href="./discover.html">Discover</a></li>
+          <li><a class="nav-link3" href="#">Join</a></li>
+          <li><a class="nav-link4" href="#">Discover</a></li>
         </ul>
       </div>
 
     </nav>
   </header>
-  <!-- header element end -->
-  <!-- main element start -->
-  <main>
-    <!-- Hero container element start -->
-    <section class="Hero-container">
-      <div class="Hero-content">
-        <img src="./images/happy-client.webp" alt="site Hero image">
-        <div class="Hero-lower-content">
-          <p>Keynote ticket</p>
-        </div>
-      </div>
-    </section>
-    <!-- banner container element end -->
-    <h2 class="second-heading">Home</h2>
-    <!-- information catalogue start -->
-    <div class="home-information-catalogue">
-      <div class="home-events">
-        <h2>events</h2>
-        <!-- <div>hello</div> -->
-      </div>
-      <div class="home-currentweather">
-        <h2>Current Weather</h2>
-        <!-- <div>helo</div> -->
-      </div>
-      <div class="home-weatherforecast">
-        <h2>Weather forecast</h2>
-        <!-- <div>hello</div> -->
-      </div>
-    </div>
 
-    <!-- js content  -->
-    <div class="generated-content">
-    </div>
-    <!-- js content  -->
-
-    <!-- information catalogue end -->
+  <main id="discover-main">
   </main>
-  <!-- main element end -->
-  <!-- footer element start -->
   <footer>
     <div class="footer-content1">
       <h3>Developer Chamber of Commerce</h3>

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "menlyn Mall",
+    "address": "Garston AH Pretoria 0063",
+    "description": "Big mall with shops and fun activities",
+    "image": "./images/menlyn-Mall.webp",
+    "alt": "menlyn Mall image"
+  },
+  {
+    "name": "Centurion Mall",
+    "address": "Gordon Hood 1269",
+    "description": "Big mall with shops and fun activities",
+    "image": "./images/Centurion-Mall.webp",
+    "alt": "Centurion Mall image"
+  },
+  {
+    "name": "Centurion Lifestyle Centre",
+    "address": "Lenchen Ave Brakfontein 399",
+    "description": "Retail center catering to the community with a supermarket & other shops, plus eateries & services",
+    "image": "./images/Centurion-Centre.webp",
+    "alt": "Centurion Lifestyle Centr image"
+  },
+  {
+    "name": "Nu Metro Menlyn Park",
+    "address": "Garston AH Pretoria 0063",
+    "description": "Modern chain cinema with multiple screens, presenting an international line-up of mainstream movies",
+    "image": "./images/NuMetro.webp",
+    "alt": "Nu Metro Menlyn Park image"
+  },
+  {
+    "name": "Menlyn Maine Central Square",
+    "address": "180 Amarand Ave Waterkloof Glen Pretoria 0063",
+    "description": "Diverse shops & cafes fill this upscale, 2-story shopping center with art & an industrial-chic feel.",
+    "image": "./images/Menlyn-Maine.webp",
+    "alt": "Menlyn Maine Central Square image"
+  },
+  {
+    "name": "Freedom Park",
+    "address": "Koch Street Salvokop Pretoria 0002",
+    "description": "Heritage site honoring South Africa's liberation struggle with monuments, museums, and breathtaking views of Pretoria and the Union Buildings.",
+    "image": "./images/Freedom-Park.webp",
+    "alt": "Freedom Park image"
+  },
+  {
+    "name": "Hatfield Plaza",
+    "address": "1122 Burnett Street Hatfield Pretoria 0028",
+    "description": "Vibrant student-friendly area with trendy restaurants, cafes, bars, boutique shopping, and lively nightlife near the university.",
+    "image": "./images/Centurion-Centre.webp",
+    "alt": "Hatfield Plaza image"
+  },
+  {
+    "name": "Cheetah Centre",
+    "address": "R513 Road De Wildt Pretoria 0251",
+    "description": "World-renowned conservation center dedicated to breeding endangered African wild dogs, cheetahs, and other rare species with guided tours.",
+    "image": "./images/Cheetah-Centre.webp",
+    "alt": "Cheetah Centre image"
+  }
+]
