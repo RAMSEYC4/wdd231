@@ -1,100 +1,110 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Local wheather 24</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Shop millions of products on Amazon.co.za. Find toys, games, electronics, and more with fast delivery to Johannesburg. Best deals and prices guaranteed.">
+  <meta name="author" content="Cedou Ramsey">
+  <meta name="keywords"
+    content="Amazon, online shopping, toys, games, electronics, delivery, Johannesburg, South Africa">
+
+  <!-- Open Graph / Social Media Tags -->
+  <meta property="og:title" content="Amazon.co.za - Online Shopping for Toys, Games & More">
+  <meta property="og:description"
+    content="Shop millions of products on Amazon.co.za with fast delivery to Johannesburg. Best deals on toys, games, electronics, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.amazon.co.za">
+  <meta property="og:image" content="images/amazon-logo.png">
+  <meta property="og:site_name" content="Amazon.co.za">
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Amazon.co.za - Online Shopping">
+  <meta name="twitter:description" content="Shop millions of products with fast delivery to Johannesburg.">
+  <meta name="twitter:image" content="images/amazon-logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/largescreen-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Amazon.co.za - Online Shopping for Toys, Games & More | Fast Delivery</title>
 </head>
 
 <body>
+  <!--header start-->
   <header>
-    <h1>Weather App Site Plan</h1>
+    <nav>
+      <div id="amazon-logo">
+        <img class="signin-logo" src="images/amazon-logo.png" alt="Amazon Logo">
+      </div>
+
+      <div id="location">
+        <p class="text-center">
+          <span class="">Delivery to Johannesburg</span>
+        </p>
+        <p class="text-center">
+          <i class="fa-solid fa-location-dot"></i>
+          Johannesburg
+        </p>
+      </div>
+
+      <div id="search-items">
+        <div>
+          <select name="category" id="category-select" class="select-items">
+            <option value="value1" selected>Toys and games </option>
+            <option value="value2">Electronics</option>
+          </select>
+        </div>
+        <div>
+          <input type="text" class="search-bar-area" placeholder="search Amazon.co.za">
+        </div>
+        <div class="search-icons center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div id="sign-in">
+        <a href="html/sign-in.html">
+          <p class="text-center">sign in</p>
+        </a>
+      </div>
+
+      <div id="cart" class="center ">
+        <div class="cart-inner-container">
+          <img src="images/icons/cart-icon.png" class="cart-logo" alt="Shopping Cart">
+        </div>
+
+        <a href="html/orders.html">
+          <p class="text-center">basket</p>
+        </a>
+        <div class="cart-number">
+          <p class="cart-items-number"></p>
+        </div>
+      </div>
+
+    </nav>
   </header>
-  <h2> Site Name : Local wheather 24</h2>
-  <p>
-    I chose this name because the website will
-    will provide wheather for my local country south africa
-    and it will be avialable 24 / 7
-  </p>
+  <!--header end-->
 
-  <h2> Site Purpose </h2>
-  <p>
-    This website will provide users
-    with weather infoemation at all times
-  </p>
-
-  <h2>Scenarios</h2>
-  <p>
-    General public/everyday users:
-    Sarah checks the app each morning to decide what
-    to wear for work and plan her day accordingly.
-  </p>
-  <p>
-    Travelers/commuters:
-    Mike uses the app before his daily commute to
-    check road conditions and plan the best departure time.
-  </p>
-  <section>
-    <h2>Color Schema</h2>
-    <p><strong>Primary Color (#4A90E2):</strong> Used for headers, buttons, and key interactive elements to create
-      visual hierarchy and draw attention.</p>
-    <div class="color-box color-primary"></div>
-    <p><strong>Secondary Color (#F5F5F5):</strong> Used for backgrounds and sections to provide contrast and improve
-      readability.</p>
-    <div class="color-box color-secondary"></div>
-  </section>
-
-  <section>
-    <h2>Typography</h2>
-    <p><strong>Font Family:</strong> Arial, sans-serif</p>
-    <p><strong>Application:</strong> Arial is used throughout the site plan for both headings and body text. This font
-      ensures readability across all devices and provides a clean, professional appearance suitable for weather
-      information display.</p>
-  </section>
-
-  <section>
-    <h2>Target Audience Scenarios</h2>
-
-    <div class="scenario">
-      <h3>General Public/Everyday Users</h3>
-      <p>Sarah checks the app each morning to decide what to wear for work and plan her day accordingly.</p>
+  <!--all products available start-->
+  <main class="products-main">
+    <div class="products">
     </div>
+  </main>
+  <!--all products available end -->
+  <script type="module" src="scripts/index.js"></script>
+</body>
 
-    <div class="scenario">
-      <h3>Travelers/Commuters</h3>
-      <p>Mike uses the app before his daily commute to check road conditions and plan the best departure time.</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>Wireframes</h2>
-
-    <div class="wireframe-container">
-      <div class="wireframe wireframe-mobile">
-        <h3>Mobile View</h3>
-        <p>Header: Weather App Logo</p>
-        <p>Search Bar</p>
-        <p>Current Temperature</p>
-        <p>Weather Icon</p>
-        <p>Location Name</p>
-        <p>Hourly Forecast (Scrollable)</p>
-        <p>7-Day Forecast</p>
-        <p>Footer</p>
-      </div>
-
-      <div class="wireframe wireframe-desktop">
-        <h3>Desktop View</h3>
-        <p>Header: Weather App Logo | Search Bar | Navigation</p>
-        <p>Main Content Area:</p>
-        <p>- Left: Current Weather (Large)</p>
-        <p>- Right: Additional Details (Humidity, Wind, etc.)</p>
-        <p>Hourly Forecast (Horizontal)</p>
-        <p>7-Day Forecast (Grid Layout)</p>
-        <p>Footer: Links | Copyright</p>
-      </div>
-    </div>
-  </section>
-</bdy>
 </html>
