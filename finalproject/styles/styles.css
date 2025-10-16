@@ -7,7 +7,8 @@
 :root {
   /* colors */
   --border: 2px solid black;
-
+  --border: 2px solid black;
+  --fullWidth: 100%;
   /* spacing */
   --fullWidth: 100%;
 }
@@ -16,6 +17,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(253, 252, 252);
+  background-color: #f5f5f5;
 }
 
 main {
@@ -93,6 +95,7 @@ nav {
 
 .select-items {
   border-radius: 5px 0 0 5px;
+  width:100%;
   height: 43px;
   background-color: rgba(232, 231, 231, 0.942);
 }
@@ -474,16 +477,224 @@ nav {
 }
 
 footer {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   margin-top: 20px;
   width: 100%;
   height: 50px;
+  display: grid;
+  justify-content: center !important;
+  align-items: center;
+  grid-template-columns: 8fr 2fr;
+}
+
+footer>p {
+  margin: 0 auto !important;
+}
+
+.footer-text {
+  padding: 5px 10px;
+  color: #000;
+  font-weight: 700;
+  text-align: center !important;
+}
+
+.wayfinder {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-up-long {
+  color: black;
+  font-size: 40px;
+}
+
+.fa-up-long:hover {
+  color: grey !important;
+}
+
+
+/* Header styles */
+header {
+  width: var(--fullWidth);
+  height: 70px;
+  background-color: #232F3E;
+  display: grid;
+  align-items: center;
+}
+
+nav {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2.9fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+#amazon-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Feedback container */
+.feedback-container-parent {
+  width: 100%;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.feedback-container-child {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-card {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 40px;
+  max-width: 600px;
+  width: 90%;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card h1 {
+  font-size: 28px;
+  margin: 0 0 10px;
+  color: #0F1111;
+  font-weight: 400;
+}
+
+.feedback-card .subtitle {
+  font-size: 14px;
+  color: #565959;
+  margin-bottom: 30px;
+}
+
+.feedback-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #0F1111;
+}
+
+.feedback-card input,
+.feedback-card textarea,
+.feedback-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #888;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0F1111;
+}
+
+.feedback-card textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.feedback-card input:focus,
+.feedback-card textarea:focus,
+.feedback-card select:focus {
+  border: 1px solid #e77600 !important;
+  outline: none !important;
+  box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.5) !important;
+}
+
+/* Rating stars */
+.rating-container {
+  margin-bottom: 20px;
+}
+
+.stars {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 32px;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.star:hover,
+.star.active {
+  color: #f7ca00;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #f7ca00;
+  border: 1px solid #a88734;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0F1111;
+  font-weight: 400;
+  transition: background-color 0.15s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e6b800;
+}
+
+.feedback-note {
+  font-size: 12px;
+  color: #565959;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #232F3E;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .footer-text {
-  color: #000;
-  font-weight: 700;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 12px;
 }
+
+/* Success message */
+.success-message {
+  display: none;
+  background-color: #e8f5e9;
+  border: 1px solid #4caf50;
+  color: #2e7d32;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+

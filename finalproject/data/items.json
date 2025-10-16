@@ -5,7 +5,7 @@
     "name": "Black and Gray Athletic Cotton Socks - 6 Pairs",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 1090,
-    "keywords": ["socks", "sports", "apparel"]
+    "keywords": ["cloths"]
   },
   {
     "id": "15b6fc6f-327a-4ec4-896f-486349e85a3d",
@@ -13,7 +13,7 @@
     "name": "Intermediate Size Basketball",
     "rating": { "stars": "⭐⭐⭐⭐" },
     "priceCents": 2095,
-    "keywords": ["sports", "basketballs"]
+    "keywords": ["sports"]
   },
   {
     "id": "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
@@ -21,7 +21,7 @@
     "name": "Adults Plain Cotton T-Shirt - 2 Pack",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 799,
-    "keywords": ["tshirts", "apparel", "mens"],
+    "keywords": ["cloths"],
     "type": "clothing",
     "sizeChartLink": "images/clothing-size-chart.png"
   },
@@ -31,7 +31,7 @@
     "name": "2 Slot Toaster - Black",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 1899,
-    "keywords": ["toaster", "kitchen", "appliances"]
+    "keywords": ["Electronics"]
   },
   {
     "id": "3ebe75dc-64d2-4137-8860-1f5a963e534b",
@@ -39,7 +39,7 @@
     "name": "6 Piece White Dinner Plate Set",
     "rating": { "stars": "⭐⭐⭐⭐" },
     "priceCents": 2067,
-    "keywords": ["plates", "kitchen", "dining"]
+    "keywords": ["kitchen"]
   },
   {
     "id": "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
@@ -47,7 +47,7 @@
     "name": "6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 3499,
-    "keywords": ["kitchen", "cookware"]
+    "keywords": ["kitchen"]
   },
   {
     "id": "dd82ca78-a18b-4e2a-9250-31e67412f98d",
@@ -55,7 +55,7 @@
     "name": "Plain Hooded Fleece Sweatshirt",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 2400,
-    "keywords": ["hoodies", "sweaters", "apparel"]
+    "keywords": ["cloths"]
   },
   {
     "id": "77919bbe-0e56-475b-adde-4f24dfed3a04",
@@ -63,7 +63,7 @@
     "name": "Luxury Towel Set - Graphite Gray",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 3599,
-    "keywords": ["bathroom", "washroom", "restroom", "towels", "bath towels"]
+    "keywords": ["cloths"]
   },
   {
     "id": "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
@@ -71,7 +71,7 @@
     "name": "Liquid Laundry Detergent, 110 Loads, 82.5 Fl Oz",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 2899,
-    "keywords": ["bathroom", "cleaning"]
+    "keywords": ["cleaning"]
   },
   {
     "id": "58b4fc92-e98c-42aa-8c55-b6b79996769a",
@@ -79,7 +79,7 @@
     "name": "Waterproof Knit Athletic Sneakers - Gray",
     "rating": { "stars": "⭐⭐⭐⭐" },
     "priceCents": 3390,
-    "keywords": ["shoes", "running shoes", "footwear"]
+    "keywords": ["cloths"]
   },
   {
     "id": "5968897c-4d27-4872-89f6-5bcb052746d7",
@@ -87,7 +87,7 @@
     "name": "Women's Chiffon Beachwear Cover Up - Black",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 2070,
-    "keywords": ["robe", "swimsuit", "swimming", "bathing", "apparel"],
+    "keywords": ["cloths"],
     "type": "clothing",
     "sizeChartLink": "images/clothing-size-chart.png"
   },
@@ -105,7 +105,7 @@
     "name": "Women's Two Strap Buckle Sandals - Tan",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 2499,
-    "keywords": ["footwear", "sandals", "womens", "beach", "summer"]
+    "keywords": ["cloths"]
   },
   {
     "id": "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
@@ -121,7 +121,7 @@
     "name": "Men's Slim-Fit Summer Shorts",
     "rating": { "stars": "⭐⭐⭐⭐" },
     "priceCents": 1699,
-    "keywords": ["shorts", "apparel", "mens"]
+    "keywords": ["cloths"]
   },
   {
     "id": "c2a82c5e-aff4-435f-9975-517cfaba2ece",
@@ -161,7 +161,7 @@
     "name": "Women's Stretch Popover Hoodie",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 1374,
-    "keywords": ["hooded", "hoodies", "sweaters", "womens", "apparel"],
+    "keywords": ["cloths"],
     "type": "clothing",
     "sizeChartLink": "images/clothing-size-chart.png"
   },
@@ -179,7 +179,7 @@
     "name": "Women's Knit Ballet Flat",
     "rating": { "stars": "⭐⭐⭐⭐" },
     "priceCents": 2640,
-    "keywords": ["shoes", "flats", "womens", "footwear"]
+    "keywords": ["cloths"]
   },
   {
     "id": "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
@@ -187,7 +187,7 @@
     "name": "Men's Regular-Fit Quick-Dry Golf Polo Shirt",
     "rating": { "stars": "⭐⭐⭐⭐⭐" },
     "priceCents": 1599,
-    "keywords": ["tshirts", "shirts", "apparel", "mens"],
+    "keywords": ["cloths"],
     "type": "clothing",
     "sizeChartLink": "images/clothing-size-chart.png"
   },

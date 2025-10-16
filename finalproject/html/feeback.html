@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Sign in to your Amazon.co.za account or create a new account. Access your orders, wishlist, and personalized recommendations.">
+  <meta name="author" content="Cedou Ramsey">
+  <meta name="keywords" content="Amazon sign in, Amazon login, create account, Amazon.co.za account">
+
+  <!-- Open Graph / Social Media Tags -->
+  <meta property="og:title" content="Sign In - Amazon.co.za">
+  <meta property="og:description"
+    content="Sign in to your Amazon account to access orders, wishlists, and exclusive deals.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.amazon.co.za/sign-in">
+  <meta property="og:image" content="../images/amazon-logo.png">
+  <meta property="og:site_name" content="Amazon.co.za">
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sign In - Amazon.co.za">
+  <meta name="twitter:description" content="Sign in to your Amazon account to access orders and exclusive deals.">
+  <meta name="twitter:image" content="../images/amazon-logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/icons8-star-filled-48.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/icons8-star-filled-48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/icons/icons8-star-filled-48.png">
+  <link rel="shortcut icon" href="./images/icons/icons8-star-filled-48.png">
+
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/largescreen-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Feedback - Amazon.co.za | Share Your Experience</title>
+</head>
+
+<body>
+  <!--header start-->
+  <header class="signin-page">
+    <nav class="Signin-nav">
+    </nav>
+  </header>
+
+  <!-- Feedback Form -->
+  <main>
+    <div class="feedback-container-parent">
+      <div class="feedback-container-child">
+        <div class="feedback-card">
+          <div class="success-message" id="successMessage">
+            Thank you for your feedback! We appreciate you taking the time to share your experience.
+          </div>
+
+          <h1>Share Your Feedback</h1>
+          <p class="subtitle">We'd love to hear about your experience with Amazon.co.za</p>
+
+          <form id="feedbackForm">
+            <div>
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            </div>
+
+            <div>
+              <label for="category">Feedback Category</label>
+              <select id="category" name="category" required>
+                <option value="">Select a category</option>
+                <option value="product">Product Quality</option>
+                <option value="delivery">Delivery Service</option>
+                <option value="customer-service">Customer Service</option>
+                <option value="website">Website Experience</option>
+                <option value="pricing">Pricing</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="rating-container">
+              <label>Overall Rating</label>
+              <div class="stars" id="starRating">
+                <i class="fa-solid fa-star star" data-rating="1"></i>
+                <i class="fa-solid fa-star star" data-rating="2"></i>
+                <i class="fa-solid fa-star star" data-rating="3"></i>
+                <i class="fa-solid fa-star star" data-rating="4"></i>
+                <i class="fa-solid fa-star star" data-rating="5"></i>
+              </div>
+            </div>
+
+            <div>
+              <label for="feedback">Your Feedback</label>
+              <textarea id="feedback" name="feedback" placeholder="Tell us about your experience..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+
+            <p class="feedback-note">
+              Your feedback helps us improve our services. All submissions are reviewed by our team.
+              For urgent matters, please contact our <a href="/customer-service" style="color: #007185;">customer
+                service</a>.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <p>
+      <a class="footer-text"
+        href="https://www.loom.com/share/695369e1a8d04f2ba4494a5221cc6381?sid=ae3c24d6-4200-4a78-beec-37dc82494f8d">
+        link for loom video</a>
+    </p>
+    <div class="wayfinder">
+      <i class="fa-solid fa-up-long">
+      </i>
+    </div>
+  </footer>
+
+  <script type="module" src="../scripts/index.js"></script>
+</body>
+
+</html>

@@ -30,8 +30,15 @@ async function init() {
   // Fetch the products data
   const data = await fetchProducts();
 
-  let renderHtml = '';
+  const data2 = data;
+  let jsSelectValues = document.querySelector('.select-items');
+  let SelectValues = '';
+  data2.forEach(values => {
+    SelectValues += `<option class="jsGeneratedOptions">${values.keywords}</option>`;
+  })
+  jsSelectValues.innerHTML = SelectValues;
 
+  let renderHtml = '';
   // Render products
   data.forEach(product => {
     renderHtml += `
@@ -102,6 +109,7 @@ async function init() {
       button.innerHTML = 'Item added to cart';
     }
 
+
     button.addEventListener('click', () => {
       const productContainer = button.closest('.js-product-container');
       const quantitySelect = productContainer.querySelector('.product-amount');
@@ -129,6 +137,16 @@ async function init() {
       saveCartToStorage();
     });
   });
+}
+
+//wayfinder function to scroll back up
+let jsWayFinderElement = document.querySelector('.fa-up-long');
+jsWayFinderElement.addEventListener('click', scrollUp);
+function scrollUp() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
 }
 
 init();
